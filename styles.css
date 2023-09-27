@@ -1,0 +1,141 @@
+*{
+margin: 0;
+padding: 0;
+/* text-align: center; */
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+background: #ffffff;
+min-height: 100vh;
+}
+
+.your-result-container{
+display: flex;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+border-radius: 30px;
+align-items: center;
+justify-content: space-between;
+width: 550px;
+background-color: white;
+}
+
+.container-result{
+width: 300px;
+height: 400px;
+background-color: #5F3FFC;
+border-radius: 30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.your-result-container > .container-result > div > h2{
+margin-top: 30px;
+font-size: 15px;
+color: #CEC2FF;
+
+}
+
+.circle{
+display: flex;
+flex-direction: column;
+margin: 40px 0 0 0;
+width: 150px;
+height: 150px; 
+background-color: #4628D6;
+border-radius: 50%;
+justify-content: center;
+align-items: center;
+background-image: radial-gradient(circle at center top, #4925CF, #4531E8 );
+}
+
+.your-result-container > .container-result > div > h1{
+color: #ffffff;
+font-size: 50px;
+}
+.your-result-container > .container-result > div > p{
+color: #CEC2FF;
+font-size: 12px;
+}
+#great{
+color: #ffff;
+margin: 20px;
+font-size: 20px;
+}
+.container-result p{
+text-align: center;
+color: #CEC2FF;
+font-size: 12px;
+}
+
+.container-result2{
+display: flex;
+padding: 30px;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+/* border-radius: 30px; */
+
+}
+.scorecard{
+display: flex;
+flex-direction: column;
+align-items: ;
+justify-content: ;
+gap: 10px;
+margin: auto;
+}
+.score-card1, .score-card2, .score-card3, .score-card4, span{
+    font-weight: bold;
+    color: #353945;
+}
+.score-card1{
+display: flex;
+flex-direction: column;
+width: 200px;
+height: 33px;
+background-color: #FFF6F5;
+border-radius: 10px;
+}
+.score-card2{
+display: flex;
+flex-direction: column;
+width: 200px;
+height: 33px;
+background-color: #FFFBF2;
+border-radius: 10px;
+}
+.score-card3{
+display: flex;
+flex-direction: column;
+width: 200px;
+height: 33px;
+background-color: #F2FBFA;
+border-radius: 10px;
+}
+.score-card4{
+display: flex;
+flex-direction: column;
+width: 200px;
+height: 33px;
+background-color: #F3F3FD;
+border-radius: 10px;
+margin-bottom: 40px;
+}
+.container-result2 > div a{
+    display: flex;
+    text-decoration: none;
+    background-color: #543BF7;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px 70px;
+    font-size: 10px;
+
+
+}
+
+
+
